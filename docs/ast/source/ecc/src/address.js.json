@@ -177,10 +177,10 @@
             }
           },
           "extra": {
-            "rawValue": "bitsharesjs-ws",
-            "raw": "\"bitsharesjs-ws\""
+            "rawValue": "tuscjs-ws",
+            "raw": "\"tuscjs-ws\""
           },
-          "value": "bitsharesjs-ws"
+          "value": "tuscjs-ws"
         }
       },
       {
@@ -10516,7 +10516,7 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "bitsharesjs-ws",
+      "value": "tuscjs-ws",
       "start": 55,
       "end": 71,
       "loc": {
