@@ -1,6 +1,6 @@
 # TUSCJS (tuscjs)
 
-Pure JavaScript Bitshares library for node.js and browsers. Can be used to construct, sign and broadcast transactions in JavaScript, and to easily obtain data from the blockchain via public apis.
+Pure JavaScript TUSC library for node.js and browsers. Can be used to construct, sign and broadcast transactions in JavaScript, and to easily obtain data from the blockchain via public apis.
 
 Most of this code was written by [jcalfee](https://github.com/jcalfee), my work was mostly just repackaging to a discrete npm package.
 
@@ -109,7 +109,7 @@ open out/esdoc/index.html
 
 ## Binaries / Browserified bundles
 
-Please have a [look here](https://github.com/bitshares/tuscjs/releases) to find your desired release.
+Please have a [look here](https://github.com/TUSCNetwork/tuscjs/releases) to find your desired release.
 If you want to build the binaries yourself you can clone this repository and run `npm install`. It will
 create
 
