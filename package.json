@@ -1,6 +1,6 @@
 {
     "name": "tuscjs",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Pure JavaScript TUSC library for node.js and browsers.",
     "browser": {
         "ws": false,
@@ -54,7 +54,6 @@
     "jsnext:main": "./es/index.js",
     "dependencies": {
         "bigi": "1.4.2",
-        "tuscjs-ws": "^0.0.3",
         "bs58": "4.0.1",
         "bytebuffer": "5.0.1",
         "create-hash": "1.2.0",
@@ -62,10 +61,13 @@
         "crypto-js": "3.1.9-1",
         "deep-equal": "1.0.1",
         "ecurve": "1.0.6",
+        "esdoc": "^1.1.0",
+        "esdoc-standard-plugin": "^1.0.0",
         "event-emitter": "0.3.5",
         "immutable": "3.8.2",
         "safe-buffer": "^5.1.2",
-        "secure-random": "1.1.1"
+        "secure-random": "1.1.1",
+        "tuscjs-ws": "^0.0.4"
     },
     "devDependencies": {
         "@babel/cli": "^7.4.4",

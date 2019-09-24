@@ -204,93 +204,9 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
-    "tuscjs/lib/serializer/src/operations.js~asset_claim_fees",
-    "variable/index.html#static-variable-asset_claim_fees",
-    "<span>asset_claim_fees</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_claim_fees_operation_fee_parameters",
-    "variable/index.html#static-variable-asset_claim_fees_operation_fee_parameters",
-    "<span>asset_claim_fees_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_claim_pool",
-    "variable/index.html#static-variable-asset_claim_pool",
-    "<span>asset_claim_pool</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_claim_pool_operation_fee_parameters",
-    "variable/index.html#static-variable-asset_claim_pool_operation_fee_parameters",
-    "<span>asset_claim_pool_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_create",
-    "variable/index.html#static-variable-asset_create",
-    "<span>asset_create</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_create_operation_fee_parameters",
-    "variable/index.html#static-variable-asset_create_operation_fee_parameters",
-    "<span>asset_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_fund_fee_pool",
-    "variable/index.html#static-variable-asset_fund_fee_pool",
-    "<span>asset_fund_fee_pool</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_fund_fee_pool_operation_fee_parameters",
-    "variable/index.html#static-variable-asset_fund_fee_pool_operation_fee_parameters",
-    "<span>asset_fund_fee_pool_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_global_settle",
-    "variable/index.html#static-variable-asset_global_settle",
-    "<span>asset_global_settle</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_global_settle_operation_fee_parameters",
-    "variable/index.html#static-variable-asset_global_settle_operation_fee_parameters",
-    "<span>asset_global_settle_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_issue",
-    "variable/index.html#static-variable-asset_issue",
-    "<span>asset_issue</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_issue_operation_fee_parameters",
-    "variable/index.html#static-variable-asset_issue_operation_fee_parameters",
-    "<span>asset_issue_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
     "tuscjs/lib/serializer/src/operations.js~asset_options",
     "variable/index.html#static-variable-asset_options",
     "<span>asset_options</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_publish_feed",
-    "variable/index.html#static-variable-asset_publish_feed",
-    "<span>asset_publish_feed</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_publish_feed_operation_fee_parameters",
-    "variable/index.html#static-variable-asset_publish_feed_operation_fee_parameters",
-    "<span>asset_publish_feed_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
@@ -306,30 +222,6 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
-    "tuscjs/lib/serializer/src/operations.js~asset_settle",
-    "variable/index.html#static-variable-asset_settle",
-    "<span>asset_settle</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_settle_cancel",
-    "variable/index.html#static-variable-asset_settle_cancel",
-    "<span>asset_settle_cancel</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_settle_cancel_operation_fee_parameters",
-    "variable/index.html#static-variable-asset_settle_cancel_operation_fee_parameters",
-    "<span>asset_settle_cancel_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_settle_operation_fee_parameters",
-    "variable/index.html#static-variable-asset_settle_operation_fee_parameters",
-    "<span>asset_settle_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
     "tuscjs/lib/serializer/src/operations.js~asset_symbol_eq_lit_predicate",
     "variable/index.html#static-variable-asset_symbol_eq_lit_predicate",
     "<span>asset_symbol_eq_lit_predicate</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
@@ -339,42 +231,6 @@ window.esdocSearchIndex = [
     "tuscjs/lib/serializer/src/operations.js~asset_update",
     "variable/index.html#static-variable-asset_update",
     "<span>asset_update</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_update_bitasset",
-    "variable/index.html#static-variable-asset_update_bitasset",
-    "<span>asset_update_bitasset</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_update_bitasset_operation_fee_parameters",
-    "variable/index.html#static-variable-asset_update_bitasset_operation_fee_parameters",
-    "<span>asset_update_bitasset_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_update_feed_producers",
-    "variable/index.html#static-variable-asset_update_feed_producers",
-    "<span>asset_update_feed_producers</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_update_feed_producers_operation_fee_parameters",
-    "variable/index.html#static-variable-asset_update_feed_producers_operation_fee_parameters",
-    "<span>asset_update_feed_producers_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_update_issuer",
-    "variable/index.html#static-variable-asset_update_issuer",
-    "<span>asset_update_issuer</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~asset_update_issuer_operation_fee_parameters",
-    "variable/index.html#static-variable-asset_update_issuer_operation_fee_parameters",
-    "<span>asset_update_issuer_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
@@ -399,18 +255,6 @@ window.esdocSearchIndex = [
     "tuscjs/lib/serializer/src/operations.js~balance_claim_operation_fee_parameters",
     "variable/index.html#static-variable-balance_claim_operation_fee_parameters",
     "<span>balance_claim_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~bid_collateral",
-    "variable/index.html#static-variable-bid_collateral",
-    "<span>bid_collateral</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~bid_collateral_operation_fee_parameters",
-    "variable/index.html#static-variable-bid_collateral_operation_fee_parameters",
-    "<span>bid_collateral_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
@@ -466,18 +310,6 @@ window.esdocSearchIndex = [
     "function/index.html#static-function-calcPubKeyRecoveryParam",
     "<span>calcPubKeyRecoveryParam</span> <span class=\"search-result-import-path\">tuscjs/lib/ecc/src/ecdsa.js</span>",
     "function"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~call_order_update",
-    "variable/index.html#static-variable-call_order_update",
-    "<span>call_order_update</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~call_order_update_operation_fee_parameters",
-    "variable/index.html#static-variable-call_order_update_operation_fee_parameters",
-    "<span>call_order_update_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
   ],
   [
     "tuscjs/lib/serializer/src/operations.js~cdd_vesting_policy_initializer",
@@ -576,45 +408,9 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
-    "tuscjs/lib/serializer/src/operations.js~execute_bid",
-    "variable/index.html#static-variable-execute_bid",
-    "<span>execute_bid</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~execute_bid_operation_fee_parameters",
-    "variable/index.html#static-variable-execute_bid_operation_fee_parameters",
-    "<span>execute_bid_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~fba_distribute",
-    "variable/index.html#static-variable-fba_distribute",
-    "<span>fba_distribute</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~fba_distribute_operation_fee_parameters",
-    "variable/index.html#static-variable-fba_distribute_operation_fee_parameters",
-    "<span>fba_distribute_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
     "tuscjs/lib/serializer/src/operations.js~fee_schedule",
     "variable/index.html#static-variable-fee_schedule",
     "<span>fee_schedule</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~fill_order",
-    "variable/index.html#static-variable-fill_order",
-    "<span>fill_order</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~fill_order_operation_fee_parameters",
-    "variable/index.html#static-variable-fill_order_operation_fee_parameters",
-    "<span>fill_order_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
@@ -630,33 +426,69 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
+    "tuscjs/lib/serializer/src/operations.js~htlc_create",
+    "variable/index.html#static-variable-htlc_create",
+    "<span>htlc_create</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
+    "variable"
+  ],
+  [
+    "tuscjs/lib/serializer/src/operations.js~htlc_create_operation_fee_parameters",
+    "variable/index.html#static-variable-htlc_create_operation_fee_parameters",
+    "<span>htlc_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
+    "variable"
+  ],
+  [
+    "tuscjs/lib/serializer/src/operations.js~htlc_extend",
+    "variable/index.html#static-variable-htlc_extend",
+    "<span>htlc_extend</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
+    "variable"
+  ],
+  [
+    "tuscjs/lib/serializer/src/operations.js~htlc_extend_operation_fee_parameters",
+    "variable/index.html#static-variable-htlc_extend_operation_fee_parameters",
+    "<span>htlc_extend_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
+    "variable"
+  ],
+  [
+    "tuscjs/lib/serializer/src/operations.js~htlc_redeem",
+    "variable/index.html#static-variable-htlc_redeem",
+    "<span>htlc_redeem</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
+    "variable"
+  ],
+  [
+    "tuscjs/lib/serializer/src/operations.js~htlc_redeem_operation_fee_parameters",
+    "variable/index.html#static-variable-htlc_redeem_operation_fee_parameters",
+    "<span>htlc_redeem_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
+    "variable"
+  ],
+  [
+    "tuscjs/lib/serializer/src/operations.js~htlc_redeemed",
+    "variable/index.html#static-variable-htlc_redeemed",
+    "<span>htlc_redeemed</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
+    "variable"
+  ],
+  [
+    "tuscjs/lib/serializer/src/operations.js~htlc_redeemed_operation_fee_parameters",
+    "variable/index.html#static-variable-htlc_redeemed_operation_fee_parameters",
+    "<span>htlc_redeemed_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
+    "variable"
+  ],
+  [
+    "tuscjs/lib/serializer/src/operations.js~htlc_refund",
+    "variable/index.html#static-variable-htlc_refund",
+    "<span>htlc_refund</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
+    "variable"
+  ],
+  [
+    "tuscjs/lib/serializer/src/operations.js~htlc_refund_operation_fee_parameters",
+    "variable/index.html#static-variable-htlc_refund_operation_fee_parameters",
+    "<span>htlc_refund_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
+    "variable"
+  ],
+  [
     "tuscjs/lib/ecc/src/keyutils.js~key",
     "variable/index.html#static-variable-key",
     "<span>key</span> <span class=\"search-result-import-path\">tuscjs/lib/ecc/src/KeyUtils.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~limit_order_cancel",
-    "variable/index.html#static-variable-limit_order_cancel",
-    "<span>limit_order_cancel</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~limit_order_cancel_operation_fee_parameters",
-    "variable/index.html#static-variable-limit_order_cancel_operation_fee_parameters",
-    "<span>limit_order_cancel_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~limit_order_create",
-    "variable/index.html#static-variable-limit_order_create",
-    "<span>limit_order_create</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~limit_order_create_operation_fee_parameters",
-    "variable/index.html#static-variable-limit_order_create_operation_fee_parameters",
-    "<span>limit_order_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
@@ -705,12 +537,6 @@ window.esdocSearchIndex = [
     "tuscjs/lib/serializer/src/operations.js~price",
     "variable/index.html#static-variable-price",
     "<span>price</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
-    "variable"
-  ],
-  [
-    "tuscjs/lib/serializer/src/operations.js~price_feed",
-    "variable/index.html#static-variable-price_feed",
-    "<span>price_feed</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
@@ -774,9 +600,27 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
+    "tuscjs/lib/serializer/src/operations.js~sale",
+    "variable/index.html#static-variable-sale",
+    "<span>sale</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
+    "variable"
+  ],
+  [
+    "tuscjs/lib/serializer/src/operations.js~sale_operation_fee_parameters",
+    "variable/index.html#static-variable-sale_operation_fee_parameters",
+    "<span>sale_operation_fee_parameters</span> <span class=\"search-result-import-path\">tuscjs/lib/serializer/src/operations.js</span>",
+    "variable"
+  ],
+  [
     "tuscjs/lib/chain/src/state.js~set",
     "function/index.html#static-function-set",
     "<span>set</span> <span class=\"search-result-import-path\">tuscjs/lib/chain/src/state.js</span>",
+    "function"
+  ],
+  [
+    "tuscjs/lib/ecc/src/hash.js~sha1",
+    "function/index.html#static-function-sha1",
+    "<span>sha1</span> <span class=\"search-result-import-path\">tuscjs/lib/ecc/src/hash.js</span>",
     "function"
   ],
   [
