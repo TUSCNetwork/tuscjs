@@ -10,7 +10,10 @@ Apis.instance("ws://18.220.127.200:8090", true).init_promise.then(res => {
 
 let dynamicGlobal = null;
 function updateState(object) {
-    // dynamicGlobal = ChainStore.getObject("2.1.0");
+    dynamicGlobal = ChainStore.getObject("2.1.0");
 
     console.log("ChainStore object update");
+    console.log(dynamicGlobal);
+
+    console.log(ChainStore.getAccount("tuscmpone", false));
 }
