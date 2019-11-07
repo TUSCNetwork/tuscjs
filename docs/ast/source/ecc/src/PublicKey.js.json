@@ -4740,7 +4740,7 @@
               "trailingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\n        @arg {string} public_key - like GPHXyz...\n        @arg {string} address_prefix - like GPH\n        @return PublicKey or `null` (if the public_key string is invalid)\n    ",
+                  "value": "*\n        @arg {string} public_key - like TUSCXyz...\n        @arg {string} address_prefix - like TUSC\n        @return PublicKey or `null` (if the public_key string is invalid)\n    ",
                   "start": 2152,
                   "end": 2334,
                   "loc": {
@@ -5148,7 +5148,7 @@
               "leadingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\n        @arg {string} public_key - like GPHXyz...\n        @arg {string} address_prefix - like GPH\n        @return PublicKey or `null` (if the public_key string is invalid)\n    ",
+                  "value": "*\n        @arg {string} public_key - like TUSCXyz...\n        @arg {string} address_prefix - like TUSC\n        @return PublicKey or `null` (if the public_key string is invalid)\n    ",
                   "start": 2152,
                   "end": 2334,
                   "loc": {
@@ -5166,7 +5166,7 @@
               "trailingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\n        @arg {string} public_key - like GPHXyz...\n        @arg {string} address_prefix - like GPH\n        @throws {Error} if public key is invalid\n        @return PublicKey\n    ",
+                  "value": "*\n        @arg {string} public_key - like TUSCXyz...\n        @arg {string} address_prefix - like TUSC\n        @throws {Error} if public key is invalid\n        @return PublicKey\n    ",
                   "start": 2605,
                   "end": 2788,
                   "loc": {
@@ -7329,7 +7329,7 @@
               "leadingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\n        @arg {string} public_key - like GPHXyz...\n        @arg {string} address_prefix - like GPH\n        @throws {Error} if public key is invalid\n        @return PublicKey\n    ",
+                  "value": "*\n        @arg {string} public_key - like TUSCXyz...\n        @arg {string} address_prefix - like TUSC\n        @throws {Error} if public key is invalid\n        @return PublicKey\n    ",
                   "start": 2605,
                   "end": 2788,
                   "loc": {
@@ -15945,7 +15945,7 @@
                 "trailingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\n        @arg {string} public_key - like GPHXyz...\n        @arg {string} address_prefix - like GPH\n        @return PublicKey or `null` (if the public_key string is invalid)\n    ",
+                    "value": "*\n        @arg {string} public_key - like TUSCXyz...\n        @arg {string} address_prefix - like TUSC\n        @return PublicKey or `null` (if the public_key string is invalid)\n    ",
                     "start": 2152,
                     "end": 2334,
                     "loc": {
@@ -16353,7 +16353,7 @@
                 "leadingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\n        @arg {string} public_key - like GPHXyz...\n        @arg {string} address_prefix - like GPH\n        @return PublicKey or `null` (if the public_key string is invalid)\n    ",
+                    "value": "*\n        @arg {string} public_key - like TUSCXyz...\n        @arg {string} address_prefix - like TUSC\n        @return PublicKey or `null` (if the public_key string is invalid)\n    ",
                     "start": 2152,
                     "end": 2334,
                     "loc": {
@@ -16371,7 +16371,7 @@
                 "trailingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\n        @arg {string} public_key - like GPHXyz...\n        @arg {string} address_prefix - like GPH\n        @throws {Error} if public key is invalid\n        @return PublicKey\n    ",
+                    "value": "*\n        @arg {string} public_key - like TUSCXyz...\n        @arg {string} address_prefix - like TUSC\n        @throws {Error} if public key is invalid\n        @return PublicKey\n    ",
                     "start": 2605,
                     "end": 2788,
                     "loc": {
@@ -18534,7 +18534,7 @@
                 "leadingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\n        @arg {string} public_key - like GPHXyz...\n        @arg {string} address_prefix - like GPH\n        @throws {Error} if public key is invalid\n        @return PublicKey\n    ",
+                    "value": "*\n        @arg {string} public_key - like TUSCXyz...\n        @arg {string} address_prefix - like TUSC\n        @throws {Error} if public key is invalid\n        @return PublicKey\n    ",
                     "start": 2605,
                     "end": 2788,
                     "loc": {
@@ -23626,7 +23626,7 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\n        @arg {string} public_key - like GPHXyz...\n        @arg {string} address_prefix - like GPH\n        @return PublicKey or `null` (if the public_key string is invalid)\n    ",
+      "value": "*\n        @arg {string} public_key - like TUSCXyz...\n        @arg {string} address_prefix - like TUSC\n        @return PublicKey or `null` (if the public_key string is invalid)\n    ",
       "start": 2152,
       "end": 2334,
       "loc": {
@@ -23642,7 +23642,7 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\n        @arg {string} public_key - like GPHXyz...\n        @arg {string} address_prefix - like GPH\n        @throws {Error} if public key is invalid\n        @return PublicKey\n    ",
+      "value": "*\n        @arg {string} public_key - like TUSCXyz...\n        @arg {string} address_prefix - like TUSC\n        @throws {Error} if public key is invalid\n        @return PublicKey\n    ",
       "start": 2605,
       "end": 2788,
       "loc": {
@@ -33010,7 +33010,7 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\n        @arg {string} public_key - like GPHXyz...\n        @arg {string} address_prefix - like GPH\n        @return PublicKey or `null` (if the public_key string is invalid)\n    ",
+      "value": "*\n        @arg {string} public_key - like TUSCXyz...\n        @arg {string} address_prefix - like TUSC\n        @return PublicKey or `null` (if the public_key string is invalid)\n    ",
       "start": 2152,
       "end": 2334,
       "loc": {
@@ -33935,7 +33935,7 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\n        @arg {string} public_key - like GPHXyz...\n        @arg {string} address_prefix - like GPH\n        @throws {Error} if public key is invalid\n        @return PublicKey\n    ",
+      "value": "*\n        @arg {string} public_key - like TUSCXyz...\n        @arg {string} address_prefix - like TUSC\n        @throws {Error} if public key is invalid\n        @return PublicKey\n    ",
       "start": 2605,
       "end": 2788,
       "loc": {

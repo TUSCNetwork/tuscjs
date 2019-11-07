@@ -965,7 +965,6 @@ function ripemd160(data) {
 // function HmacSHA512(buffer, secret) {
 //   return crypto.createHmac('sha512', secret).update(buffer).digest()
 // }
-//# sourceMappingURL=hash.js.map
 
 /***/ }),
 /* 6 */
@@ -3799,8 +3798,8 @@ function () {
     return address_prefix + (0, _bs.encode)(addy);
   }
   /**
-      @arg {string} public_key - like GPHXyz...
-      @arg {string} address_prefix - like GPH
+      @arg {string} public_key - like TUSCXyz...
+      @arg {string} address_prefix - like TUSC
       @return PublicKey or `null` (if the public_key string is invalid)
   */
   ;
@@ -3817,8 +3816,8 @@ function () {
     }
   }
   /**
-      @arg {string} public_key - like GPHXyz...
-      @arg {string} address_prefix - like GPH
+      @arg {string} public_key - like TUSCXyz...
+      @arg {string} address_prefix - like TUSC
       @throws {Error} if public key is invalid
       @return PublicKey
   */
@@ -3920,7 +3919,6 @@ function () {
 var _default = PublicKey;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=PublicKey.js.map
 
 /***/ }),
 /* 12 */
@@ -7987,7 +7985,6 @@ ChainTypes.operations = {
 var _default = ChainTypes;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=ChainTypes.js.map
 
 /***/ }),
 /* 16 */
@@ -8468,7 +8465,6 @@ var _my = {
 var _default = _my;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=SerializerValidation.js.map
 
 /***/ }),
 /* 18 */
@@ -8682,7 +8678,6 @@ var toPublic = function toPublic(data) {
 };
 
 module.exports = exports.default;
-//# sourceMappingURL=PrivateKey.js.map
 
 /***/ }),
 /* 19 */
@@ -8906,7 +8901,6 @@ function () {
 var _default = Serializer;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=serializer.js.map
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(3)))
 
 /***/ }),
@@ -8996,7 +8990,6 @@ function () {
 var _default = FastParser;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=FastParser.js.map
 
 /***/ }),
 /* 21 */
@@ -11957,7 +11950,6 @@ var sortOperation = function sortOperation(array, st_operation) {
 var _default = Types;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=types.js.map
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(3)))
 
 /***/ }),
@@ -12007,7 +11999,6 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; if (obj != null) { var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-//# sourceMappingURL=index.js.map
 
 /***/ }),
 /* 32 */
@@ -12118,7 +12109,6 @@ function () {
 var _default = Address;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=address.js.map
 
 /***/ }),
 /* 33 */
@@ -12431,7 +12421,6 @@ function () {
 var _default = Aes;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=aes.js.map
 
 /***/ }),
 /* 34 */
@@ -12661,7 +12650,6 @@ var key = {
 var _default = key;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=KeyUtils.js.map
 
 /***/ }),
 /* 35 */
@@ -16875,7 +16863,7 @@ for(let a in this.subs)if(this.subs[a].callback===b){this.unsub[this.cbId]=a;bre
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var config={core_asset:"CORE",address_prefix:"GPH",expire_in_secs:15,expire_in_secs_proposal:86400,review_in_secs_committee:86400,networks:{TUSC:{core_asset:"TUSC",address_prefix:"TUSC",chain_id:"1c924c962905ad379a369f83f0135ec128307d2d2508b17b400125e45b547c9a"},Muse:{core_asset:"MUSE",address_prefix:"MUSE",chain_id:"45ad2d3f9ef92a49b55c2227eb06123f613bb35dd08bd876f2aea21925a67a67"},Test:{core_asset:"TEST",address_prefix:"TEST",chain_id:"39f5e2ede1f8bc1a3a54a7914414e3779e33193f1f5693510e73cb7a87617447"},Obelisk:{core_asset:"GOV",address_prefix:"FEW",chain_id:"1cfde7c388b9e8ac06462d68aadbd966b58f88797637d9af805b4560b0e9661e"}},/** Set a few properties for known chain IDs. */setChainId:a=>{let b=Object.entries(config.networks).find(([b,c])=>{if(c.chain_id===a)return config.network_name=b,c.address_prefix&&(config.address_prefix=c.address_prefix),!0});return b?{network_name:b[0],network:b[1]}:void console.log("Unknown chain id (this may be a testnet)",a)},reset:()=>{config.core_asset="CORE",config.address_prefix="GPH",config.expire_in_secs=15,config.expire_in_secs_proposal=86400,console.log("Chain config reset")},setPrefix:(a="GPH")=>config.address_prefix=a},_default=config;exports.default=_default;
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var config={core_asset:"TUSC",address_prefix:"TUSC",expire_in_secs:15,expire_in_secs_proposal:86400,review_in_secs_committee:86400,networks:{TUSC:{core_asset:"TUSC",address_prefix:"TUSC",chain_id:"5a64159ecf7214e8d072712ed9341cda01d9a8d9f8d6ac554decb41542497168"},Muse:{core_asset:"MUSE",address_prefix:"MUSE",chain_id:"45ad2d3f9ef92a49b55c2227eb06123f613bb35dd08bd876f2aea21925a67a67"},Test:{core_asset:"TUSC",address_prefix:"TUSC",chain_id:"2f3b0eda49110b33e8992da47c73f96db7b8cf28e68d5dabf7e39e48a69371ed"},Obelisk:{core_asset:"GOV",address_prefix:"FEW",chain_id:"1cfde7c388b9e8ac06462d68aadbd966b58f88797637d9af805b4560b0e9661e"}},/** Set a few properties for known chain IDs. */setChainId:a=>{let b=Object.entries(config.networks).find(([b,c])=>{if(c.chain_id===a)return config.network_name=b,c.address_prefix&&(config.address_prefix=c.address_prefix),!0});return b?{network_name:b[0],network:b[1]}:void console.log("Unknown chain id (this may be a testnet)",a)},reset:()=>{config.core_asset="TUSC",config.address_prefix="TUSC",config.expire_in_secs=15,config.expire_in_secs_proposal=86400,console.log("Chain config reset")},setPrefix:(a="TUSC")=>config.address_prefix=a},_default=config;exports.default=_default;
 
 /***/ }),
 /* 54 */
@@ -16955,7 +16943,6 @@ function () {
 var _default = ObjectId;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=ObjectId.js.map
 
 /***/ }),
 /* 55 */
@@ -17414,7 +17401,6 @@ function () {
 var _default = Signature;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=signature.js.map
 
 /***/ }),
 /* 58 */
@@ -17475,7 +17461,6 @@ function getName(fn) {
 }
 
 module.exports = exports.default;
-//# sourceMappingURL=enforce_types.js.map
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(6).Buffer))
 
 /***/ }),
@@ -17498,7 +17483,6 @@ function normalize(brainKey) {
 }
 
 module.exports = exports.default;
-//# sourceMappingURL=BrainKey.js.map
 
 /***/ }),
 /* 60 */
@@ -18610,7 +18594,6 @@ var stealth_memo_data = new Serializer("stealth_memo_data", {
 // })
 
 exports.stealth_memo_data = stealth_memo_data;
-//# sourceMappingURL=operations.js.map
 
 /***/ }),
 /* 62 */
@@ -18640,7 +18623,6 @@ function template(op) {
 }
 
 module.exports = exports.default;
-//# sourceMappingURL=template.js.map
 
 /***/ }),
 /* 63 */
@@ -18816,7 +18798,6 @@ var chainValidation = {
 var _default = chainValidation;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=ChainValidation.js.map
 
 /***/ }),
 /* 64 */
@@ -18843,7 +18824,6 @@ function emitter() {
 }
 
 module.exports = exports.default;
-//# sourceMappingURL=EmitterInstance.js.map
 
 /***/ }),
 /* 65 */
@@ -18897,7 +18877,6 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; if (obj != null) { var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-//# sourceMappingURL=index.js.map
 
 /***/ }),
 /* 67 */
@@ -19016,7 +18995,6 @@ var FetchChainObjects = _ChainStore["default"].FetchChainObjects,
     FetchChain = _ChainStore["default"].FetchChain;
 exports.FetchChain = FetchChain;
 exports.FetchChainObjects = FetchChainObjects;
-//# sourceMappingURL=index.js.map
 
 /***/ }),
 /* 68 */
@@ -20283,7 +20261,6 @@ function () {
 var _default = ErrorWithCause;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=error_with_cause.js.map
 
 /***/ }),
 /* 70 */
@@ -24681,7 +24658,6 @@ function calcPubKeyRecoveryParam(curve, e, signature, Q) {
 
   throw new Error("Unable to find valid recovery factor");
 }
-//# sourceMappingURL=ecdsa.js.map
 
 /***/ }),
 /* 113 */
@@ -24818,7 +24794,6 @@ ECSignature.prototype.toScriptSignature = function (hashType) {
 var _default = ECSignature;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=ecsignature.js.map
 
 /***/ }),
 /* 114 */
@@ -25765,9 +25740,6 @@ function () {
             assets = full_account.assets,
             vesting_balances = full_account.vesting_balances,
             statistics = full_account.statistics,
-            call_orders = full_account.call_orders,
-            settle_orders = full_account.settle_orders,
-            limit_orders = full_account.limit_orders,
             referrer_name = full_account.referrer_name,
             registrar_name = full_account.registrar_name,
             lifetime_referrer_name = full_account.lifetime_referrer_name,
@@ -25780,12 +25752,12 @@ function () {
         account.referrer_name = referrer_name;
         account.lifetime_referrer_name = lifetime_referrer_name;
         account.registrar_name = registrar_name;
-        account.balances = {};
-        account.orders = new _immutable["default"].Set();
+        account.balances = {}; // account.orders = new Immutable.Set();
+
         account.vesting_balances = new _immutable["default"].Set();
-        account.balances = new _immutable["default"].Map();
-        account.call_orders = new _immutable["default"].Set();
-        account.settle_orders = new _immutable["default"].Set();
+        account.balances = new _immutable["default"].Map(); // account.call_orders = new Immutable.Set();
+        // account.settle_orders = new Immutable.Set();
+
         account.proposals = new _immutable["default"].Set();
         account.vesting_balances = account.vesting_balances.withMutations(function (set) {
           vesting_balances.forEach(function (vb) {
@@ -25805,31 +25777,32 @@ function () {
             map.set(b.asset_type, b.id);
             if (autosubscribe) sub_to_objects.push(b.id);
           });
-        });
-        account.orders = account.orders.withMutations(function (set) {
-          limit_orders.forEach(function (order) {
-            _this12._updateObject(order);
+        }); // account.orders = account.orders.withMutations(set => {
+        //     limit_orders.forEach(order => {
+        //         this._updateObject(order);
+        //         set.add(order.id);
+        //         if (autosubscribe) sub_to_objects.push(order.id);
+        //     });
+        // });
+        // account.call_orders = account.call_orders.withMutations(
+        //     set => {
+        //         call_orders.forEach(co => {
+        //             this._updateObject(co);
+        //             set.add(co.id);
+        //             if (autosubscribe) sub_to_objects.push(co.id);
+        //         });
+        //     }
+        // );
+        // account.settle_orders = account.settle_orders.withMutations(
+        //     set => {
+        //         settle_orders.forEach(so => {
+        //             this._updateObject(so);
+        //             set.add(so.id);
+        //             if (autosubscribe) sub_to_objects.push(so.id);
+        //         });
+        //     }
+        // );
 
-            set.add(order.id);
-            if (autosubscribe) sub_to_objects.push(order.id);
-          });
-        });
-        account.call_orders = account.call_orders.withMutations(function (set) {
-          call_orders.forEach(function (co) {
-            _this12._updateObject(co);
-
-            set.add(co.id);
-            if (autosubscribe) sub_to_objects.push(co.id);
-          });
-        });
-        account.settle_orders = account.settle_orders.withMutations(function (set) {
-          settle_orders.forEach(function (so) {
-            _this12._updateObject(so);
-
-            set.add(so.id);
-            if (autosubscribe) sub_to_objects.push(so.id);
-          });
-        });
         account.proposals = account.proposals.withMutations(function (set) {
           proposals.forEach(function (p) {
             _this12._updateObject(p);
@@ -26417,7 +26390,6 @@ function timeStringToDate(time_string) {
 var _default = chain_store;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=ChainStore.js.map
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(3)))
 
 /***/ }),
@@ -31965,7 +31937,7 @@ function () {
   /**
       This does it all: set fees, finalize, sign, and broadcast (if wanted).
        @arg {ConfidentialWallet} cwallet - must be unlocked, used to gather signing keys
-       @arg {array<string>} [signer_pubkeys = null] - Optional ["GPHAbc9Def0...", ...].  These are additional signing keys.  Some balance claims require propritary address formats, the witness node can't tell us which ones are needed so they must be passed in.  If the witness node can figure out a signing key (mostly all other transactions), it should not be passed in here.
+       @arg {array<string>} [signer_pubkeys = null] - Optional ["TUSCAbc9Def0...", ...].  These are additional signing keys.  Some balance claims require propritary address formats, the witness node can't tell us which ones are needed so they must be passed in.  If the witness node can figure out a signing key (mostly all other transactions), it should not be passed in here.
        @arg {boolean} [broadcast = false]
   */
   ;
@@ -32814,7 +32786,6 @@ function timeStringToDate(time_string) {
 var _default = TransactionBuilder;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=TransactionBuilder.js.map
 
 /***/ }),
 /* 137 */
@@ -32871,7 +32842,6 @@ var NumberUtils = {
 var _default = NumberUtils;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=NumberUtils.js.map
 
 /***/ }),
 /* 138 */
@@ -33008,7 +32978,6 @@ helper.instance = function (ObjectId) {
 var _default = helper;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=TransactionHelper.js.map
 
 /***/ }),
 /* 139 */
@@ -33150,7 +33119,6 @@ var accountLogin = new AccountLogin();
 var _default = accountLogin;
 exports["default"] = _default;
 module.exports = exports.default;
-//# sourceMappingURL=AccountLogin.js.map
 
 /***/ }),
 /* 140 */
@@ -33175,7 +33143,6 @@ function set(state) {
     return this;
   };
 }
-//# sourceMappingURL=state.js.map
 
 /***/ })
 /******/ ])));
