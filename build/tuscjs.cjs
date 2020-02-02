@@ -18664,8 +18664,10 @@ var chainValidation = {
     for (i = 0, len = ref.length; i < len; i++) {
       label = ref[i];
 
-      if (!(/^[a-z][a-z0-9-]*$/.test(label) && !/--/.test(label) && /[a-z0-9]$/.test(label))) {
-        return false;
+      if (label.length > 0) {
+        if (!(/^[a-z0-9-]*$/.test(label) && !/--/.test(label) && /[a-z0-9-]$/.test(label))) {
+          return false;
+        }
       }
     }
 
@@ -32140,50 +32142,26 @@ function () {
             key = "from";
             break;
 
-          case 6: //account_update
-
-          case 17:
-            // asset_settle
+          case 6:
+            //account_update
             key = "account";
             break;
 
-          case 10: // asset_create
-
-          case 11: // asset_update
-
-          case 12: // asset_update_bitasset
-
-          case 13: // asset_update_feed_producers
-
-          case 14: // asset_issue
-
-          case 18: // asset_global_settle
-
-          case 43:
-            // asset_claim_fees
-            key = "issuer";
-            break;
-
-          case 15:
+          case 7:
             // asset_reserve
             key = "payer";
             break;
 
-          case 16:
-            // asset_fund_fee_pool
-            key = "from_account";
-            break;
+          case 10: // proposal_create
 
-          case 22: // proposal_create
+          case 11: // proposal_update
 
-          case 23: // proposal_update
-
-          case 24:
+          case 12:
             // proposal_delete
             key = "fee_paying_account";
             break;
 
-          case 31:
+          case 19:
             // committee_member_update_global_parameters
             requiresReview = true;
             extraReview = 60 * 60 * 24 * 13; // Make the review period 2 weeks total
@@ -32287,7 +32265,7 @@ function () {
     }
 
     function isProposal(op) {
-      return op[0] === 22;
+      return op[0] === 10;
     }
 
     var operations = [];
